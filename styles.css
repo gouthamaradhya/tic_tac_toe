@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+h1{
+    font-family: 'Almendra', serif;
+    text-align: center;
+    font-size: 5rem;
+    color: #EEE2DE;
+}
+
+h2{
+    text-align: center;
+    color: #B31312;
+    font-size: 3rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+body{
+    background-color: #2B2A4C;
+    height: 100vh;
+}
+
+
+.btn{
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    background-color: #EA906C;
+    border: 1.5px solid black;
+    
+}
+.box-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px
+}
+
+.row1, .row2, .row3{
+    display: flex;
+}
+
+
+.unclicked{
+    pointer-events: none;
+}
+.clicked1{
+    background-image: url("./images/o.png");
+}
+
+.clicked2{
+    background-image: url("./images/x.png");
+}
+
+.one{
+    pointer-events: none;
+}
