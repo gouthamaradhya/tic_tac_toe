@@ -10,7 +10,7 @@ var column1 = ["1", "4", "7"];
 var column2 = ["2", "5", "8"];
 var column3 = ["3", "6" ,"9"];
 var diagonal1 = ["1", "5", "9"];
-var diagonal2 = ["3", "6", "7"];
+var diagonal2 = ["3", "5", "7"];
 
 $(".btn").addClass("unclicked");
 
