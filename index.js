@@ -15,7 +15,7 @@ var diagonal2 = ["3", "5", "7"];
 $(".btn").addClass("unclicked");
 
 function start(){
-$(document).keydown(function(){
+$(document).on("keydown tap", function(){
     $("h2").text("Player " + turn[turnNumber]);
     $(".btn").removeClass("unclicked");
     $(document).unbind("keydown");
@@ -25,7 +25,7 @@ $(document).keydown(function(){
 
 start();
     
-$(".btn").click(function(){
+$(".btn").on("click tap", function(){
     var buttonId = $(this).attr("id");
     var buttonValue = $(this).attr("value");
     if(turn[turnNumber] === "⭕️"){
