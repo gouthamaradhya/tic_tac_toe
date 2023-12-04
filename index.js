@@ -36,6 +36,8 @@ $(".btn").on("click tap", function(){
         $("h2").text("Player " + turn[turnNumber]);
         if(turnNumber === 9){
             $("h2").text("Game Over.");
+            $(".btn").addClass("unclicked");
+            restart();
         }
     }
     }
