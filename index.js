@@ -48,7 +48,9 @@ $(".btn").on("click tap", function(){
         
         
         if(turnNumber === 9){
-            $("h2").text("Game Over.");
+            $("h2").text("Game Over. Press any key to restart");
+            $(".btn").addClass("unclicked");
+            restart();
         }
     }
     }
